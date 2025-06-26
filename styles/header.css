@@ -1,0 +1,15 @@
+.header-link {
+    text-decoration: none;
+    color: #333333; /* cinza escuro */
+    display: inline-block;
+    margin-right: 24px; /* espaçamento entre os itens */
+    font-weight: 500;
+}
+
+.header-link:last-child {
+    margin-right: 0;
+}
+.header-link:hover {
+    color: #0070f3; /* azul ao passar o mouse */
+    text-decoration: underline;
+}
