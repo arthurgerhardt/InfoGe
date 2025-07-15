@@ -1,15 +1,19 @@
-.header-link {
-    text-decoration: none;
-    color: #333333; /* cinza escuro */
-    display: inline-block;
-    margin-right: 24px; /* espaçamento entre os itens */
-    font-weight: 500;
+/* Cor de fundo para o header */
+header {
+    background-color: #7e8081; /* azul escuro */
+    padding: 16px 0;
 }
 
-.header-link:last-child {
-    margin-right: 0;
+/* Estilo para o nome INFOGE */
+header .infoge {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+    cursor: pointer;
 }
-.header-link:hover {
-    color: #0070f3; /* azul ao passar o mouse */
-    text-decoration: underline;
+
+/* Mudança de cor ao passar o mouse */
+header .infoge:hover {
+    color: #ffca28; /* amarelo */
 }

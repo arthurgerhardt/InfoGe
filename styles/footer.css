@@ -3,10 +3,61 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    /* Opcional: estilos adicionais */
     background: #222;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.12);
+    font-size: 1rem;
 }
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer a.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(90deg, #E1306C 0%, #F77737 100%);
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(225,48,108,0.15);
+    border: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+footer a.instagram-link:hover {
+    background: linear-gradient(90deg, #C13584 0%, #F56040 100%);
+    transform: translateY(-2px) scale(1.05);
+}
+
+footer a.instagram-link img.instagram-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+footer a.whatsapp-link img.whatsapp-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+footer .footer-text {
+    color: #bbb;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
