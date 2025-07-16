@@ -19,7 +19,7 @@ footer .footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.7rem;
+    gap: 1.7rem;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -28,7 +28,7 @@ footer a.instagram-link,
 footer a.whatsapp-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.72rem;
+    gap: 1.72rem;
     padding: 0.52rem 0.82rem;
     border-radius: 1rem;
     text-decoration: none;

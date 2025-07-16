@@ -1,0 +1,33 @@
+.computer-repair {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.6rem;
+    line-height: 0.6;
+    letter-spacing: -0.02em;
+    gap: 0.8rem;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+.computer-repair:hover {
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+}
+
+.computer-repair img {
+    max-width: 30%;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.computer-repair h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.computer-repair p {
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
