@@ -1,19 +1,34 @@
-/* Cor de fundo para o header */
-header {
-    background-color: #7e8081; /* azul escuro */
-    padding: 16px 0;
+header nav ul {
+    background-color: #686868;
+    display: flex;
+    gap: 32px; /* Espaçamento entre os links */
+    list-style: none; /* Remove as bolinhas */
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo para o nome INFOGE */
-header .infoge {
-    color: #fff;
-    font-size: 2rem;
+header nav li {
+    /* Opcional: pode adicionar espaçamento extra se quiser */
+    margin-right: 16px;
+    margin-left: 16px;
+    display: inline-block; /* Garante que os links sejam exibidos em linha */
     font-weight: bold;
-    transition: color 0.3s;
-    cursor: pointer;
+    text-transform: uppercase; /* Deixa os links em maiúsculas */
+    transition: color 0.2s; /* Transição suave para a cor */
+    padding: 4px 8px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
 }
 
-/* Mudança de cor ao passar o mouse */
-header .infoge:hover {
-    color: #ffca28; /* amarelo */
+header nav a {
+    
+    color: #bebcbc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+    padding: 4px 8px; /* Espaçamento interno nos links */
+}
+
+header nav a:hover {
+    color: #151515; /* Cor do link ao passar o mouse */
+    background-color: #f0f0f0; /* Fundo ao passar o mouse */
 }
