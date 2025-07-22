@@ -1,34 +1,26 @@
-header nav ul {
-    background-color: #686868;
+/* Header layout: logo beside h1 */
+header {
     display: flex;
-    gap: 32px; /* Espaçamento entre os links */
-    list-style: none; /* Remove as bolinhas */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px; /* Espaçamento maior, similar ao Fedora */
+    background: rgba(41, 65, 114, 0.95);
+    padding: 24px 0 18px 0;
+    border-bottom: 2px solid #3264b8;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+}
+
+header img {
+    max-width: 64px;
+    height: auto;
     margin: 0;
-    padding: 0;
+    border-radius: 50%;
+    background: #f8fafd;
+    box-shadow: 0 1px 6px rgba(44, 62, 80, 0.10);
 }
 
-header nav li {
-    /* Opcional: pode adicionar espaçamento extra se quiser */
-    margin-right: 16px;
-    margin-left: 16px;
-    display: inline-block; /* Garante que os links sejam exibidos em linha */
-    font-weight: bold;
-    text-transform: uppercase; /* Deixa os links em maiúsculas */
-    transition: color 0.2s; /* Transição suave para a cor */
-    padding: 4px 8px; /* Espaçamento interno nos links */
-    border-radius: 4px; /* Bordas arredondadas */
-}
-
-header nav a {
-    
-    color: #bebcbc;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.2s;
-    padding: 4px 8px; /* Espaçamento interno nos links */
-}
-
-header nav a:hover {
-    color: #151515; /* Cor do link ao passar o mouse */
-    background-color: #f0f0f0; /* Fundo ao passar o mouse */
+header h1 {
+    margin-bottom: 0;
+    color: #f8fafd;
 }

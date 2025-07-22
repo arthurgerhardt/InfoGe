@@ -1,33 +1,19 @@
-.computer-repair {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 0.6rem;
-    line-height: 0.6;
-    letter-spacing: -0.02em;
-    gap: 0.8rem;
-    text-transform: capitalize;
-    color: rgb(0, 0, 0);
+main {
+    background: linear-gradient(135deg, #f8fafc 0%, #e3e8ee 100%);
+    min-height: 100vh;
+    padding: 2rem 0;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    color: #232e3c;
+    box-shadow: 0 2px 8px rgba(35, 46, 60, 0.04);
 }
 
-.computer-repair:hover {
-    color: rgb(115, 115, 115);
+main a {
+    color: #3070b3;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
-.computer-repair img {
-    max-width: 30%;
-    height: auto;
-    vertical-align: middle;
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.computer-repair h3 {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-}
-.computer-repair p {
-    font-size: 0.9rem;
-    margin: 0;
-    line-height: 1.4;
+main a:hover {
+    color: #23527c;
+    text-decoration: underline;
 }
