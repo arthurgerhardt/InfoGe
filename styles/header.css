@@ -1,26 +1,11 @@
-/* Header layout: logo beside h1 */
-header {
+header nav ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 32px; /* Espaçamento maior, similar ao Fedora */
-    background: rgba(41, 65, 114, 0.95);
-    padding: 24px 0 18px 0;
-    border-bottom: 2px solid #3264b8;
-    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
-}
-
-header img {
-    max-width: 64px;
-    height: auto;
+    gap: 24px; /* Espaço entre os itens do menu */
+    list-style: none;
+    padding: 0;
     margin: 0;
-    border-radius: 50%;
-    background: #f8fafd;
-    box-shadow: 0 1px 6px rgba(44, 62, 80, 0.10);
 }
 
-header h1 {
-    margin-bottom: 0;
-    color: #f8fafd;
+header nav ul li {
+    /* Opcional: estilização dos itens */
 }

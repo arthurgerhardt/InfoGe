@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serviços - InfoGe</title>
     <link rel="stylesheet" href="../styles/index.css">
 </head>
+
 <body>
     <header>
         <h1>INFOGE</h1>
@@ -14,7 +16,8 @@
                 <li class="navbar__item"><a class="navbar__link" href="../index.html">Início</a></li>
                 <li class="navbar__item"><a class="navbar__link" href="../content/sobre.html">Sobre</a></li>
                 <li class="navbar__item"><a class="navbar__link" href="../content/servicos.html">Serviços</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="../content/contato.html">Contato</a></li>
+                <li class="header__navbar-item"><a class="header__navbar-link"
+                        href="../content/contatos.html">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -46,35 +49,67 @@
         </section>
         <br>
         <br>
-        <article>
-            <h3>Novo vídeo promocional</h3>
-            <p>Confira nosso novo vídeo promocional que destaca nossos serviços e produtos. Assista agora e descubra
-                tudo o que o InfoGe pode oferecer para você!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/C0XseIWIKgo" frameborder="0" allowfullscreen></iframe>
+        <section id="informatica">
+            <h2>Serviços de Informática</h2>
 
-            <p>Para mais informações, acesse nosso canal no YouTube.</p>
-            <a href="https://www.youtube.com/@ArthurGerhardt" target="_blank" rel="noopener">Canal ArthurGerhardt</a>
-        </article>
+            <div class="servico" aria-label="Serviço de Reparo e Formatação de Computadores">
+                <img src="../assets/ComputerRepair.jpg" alt="Reparo de Computadores">
+                <h3>Reparo de Computadores</h3>
+                <p>Formatação</p>
+            </div>
+
+            <div class="servico">
+                <img src="../assets/backupdados.webp" alt="Backup de Dados">
+                <h3>Backup de Dados</h3>
+            </div>
+
+            <div class="servico">
+                <img src="../assets/LimpezaComputador.jpg" alt="Limpeza Interna">
+                <h3>Limpeza Interna</h3>
+            </div>
+        </section>
         <br>
         <br>
-        <article class="printing-services">
-            <h3>Serviços de impressão</h3>
-            <p>Oferecemos uma ampla gama de serviços de impressão, incluindo cópias, impressões em preto e branco,
-                coloridas e encadernação. Além disso, também fornecemos impressão de fotos digitais e revelação de
-                filmes negativos.</p>
-            <img src="../assets/ServicosImpressao.jpeg" alt="Serviços de impressão" class="printing-services">
-        </article>
-        <br>
+        <section id="acessorios">
+            <h2>Acessórios para Celular</h2>
+            <div class="servico">
+                <img src="../assets/peliculaxr.jpg.webp" alt="Películas e Aplicação">
+                <h3>Películas e Aplicação</h3>
+            </div>
+            <div class="servico">
+                <img src="../assets/capascelular.png" alt="Capas para iPhone e Samsung">
+                <h3>Capas para iPhone e Samsung</h3>
+            </div>
+            <div class="servico">
+                <img src="../assets/acessorioscelular.jpg" alt="Carregadores, Fones e Cabos">
+                <h3>Carregadores, Fones e Cabos</h3>
+            </div>
+        </section>
+        <section id="personalizados">
+            <h2>Produtos Personalizados</h2>
+            <div class="servico">
+                <img src="../assets/fitaspersonalizadas.jpg" alt="Fitas Personalizadas">
+                <p>Fitas Personalizadas</p>
+            </div>
+            <div class="servico">
+                <img src="../assets/papelaria.jpeg" alt="Papelaria">
+                <p>Papelaria</p>
+            </div>
+            <div class="servico">
+                <img src="../assets/convitespersonalizados.jpeg" alt="Convites">
+                <p>Convites</p>
+            </div>
+        </section>
         <article class="computer-repair">
             <h3>Reparos em computadores</h3>
             <br>
             <p>Nossos especialistas são capacitados para realizar reparos em computadores, desde problemas simples até
                 falhas complexas. Contate-nos para obter um diagnóstico rápido e eficiente.</p>
-            <img src="../assets/Seucomputador.png" alt="Reparos em computadores" class="computer-repair">
+            <img src="../assets/TabelaPrecos.png" alt="Reparos em computadores" class="computer-repair">
         </article>
     </main>
     <footer>
-         <p class="footer__copyright">&copy; 2025 InfoGe. Todos os direitos reservados.</p>
+        <p class="footer__copyright">&copy; 2025 InfoGe. Todos os direitos reservados.</p>
         <div class="footer__social">
             <a href="https://www.instagram.com/informatica.ge?igsh=MTIzcXlqZDE5aXJ2aA%3D%3D&utm_source=qr"
                 target="_blank" rel="noopener" aria-label="Instagram">
@@ -86,4 +121,5 @@
         </div>
     </footer>
 </body>
+
 </html>
