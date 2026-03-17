@@ -32,8 +32,16 @@ img {
     max-width: 18%;
     height: auto;
     margin: 22px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+    border-radius: 170px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.0px);
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin: 22px 0;
+    border-radius: 170px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.0px);
 }
 
 video {
