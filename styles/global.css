@@ -7,7 +7,7 @@
 html, body {
     height: 100%;
     font-family: 'Inter', 'Arial', sans-serif;
-    background: linear-gradient(135deg, #294172 0%, #3264b8 100%);
+    background: rgb(247, 244, 244);
     color: #f8fafd;
     text-align: center;
 }
