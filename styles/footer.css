@@ -6,23 +6,34 @@ footer {
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 5px;
-    gap: 26px;
+    padding: 5px 20px;
+    gap: 44px; /* Espaço entre texto e ícones */
     text-align: center;
 }
 
-footer img {
-    width: 46px;
-    height: 46px;
-    gap: 24px;
-    object-fit: contain;
+/* Container dos ícones */
+.footer__social {
+    display: flex;
+    gap: 5px; /* Espaço entre os ícones */
+    align-items: center;
 }
 
-footer img a {
+/* Links dos ícones */
+.footer__social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: transform 0.3s ease;
 }
 
-footer img a:hover {
-    transform: scale(1.1);
-}  
+/* Ícones */
+.footer__icon {
+    width: 64px;   /* Tamanho ideal */
+    height: 64px;
+    object-fit: contain;
+}
 
+/* Hover */
+.footer__social a:hover {
+    transform: scale(1.1);
+}

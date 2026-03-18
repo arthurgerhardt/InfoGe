@@ -1,11 +1,15 @@
+/* ------------------------------ */
+/* Navegação do Header            */
+/* ------------------------------ */
+
 header nav ul {
     display: flex;
-    gap: 24px; /* Espaço entre os itens do menu */
+    gap: 24px;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-header nav ul li {
-    /* Opcional: estilização dos itens */
+header nav li {
+    /* Espaço reservado para estilos futuros */
 }
