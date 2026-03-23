@@ -1,0 +1,67 @@
+/* Grade estilo galeria */
+.galeria-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Aumentei o tamanho */
+    gap: 32px;
+    padding: 20px 10px;
+    justify-items: center;
+}
+
+/* Cada item da galeria */
+.galeria-produtos .item {
+    width: 100%;
+    max-width: 340px; /* Cards maiores */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.galeria-produtos .item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+/* CONTAINER DA IMAGEM — controla o tamanho máximo */
+.galeria-produtos .img-box {
+    width: 100%;
+    height: 260px; /* Altura maior para destacar a foto */
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOTO — sem corte, sem distorção, tamanho real dentro do espaço */
+.galeria-produtos img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Mostra a imagem inteira */
+    border-radius: 0;
+    display: block;
+}
+
+.galeria-produtos .btn {
+    width: 90%;
+    padding: 12px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #25d366, #1ebe5d);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: all .25s ease;
+}
+
+.galeria-produtos .btn:hover {
+    background: linear-gradient(135deg, #1ebe5d, #25d366);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.22);
+}
