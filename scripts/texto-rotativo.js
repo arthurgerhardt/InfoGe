@@ -1,9 +1,9 @@
 
   const frases = [
-    "Reparo de computadores",
-    "Papelaria",
-    "Gráfica e serviços de impressão",
-    "Serviços de TI e suporte técnico",
+    "Reparo ",
+    "Reparo com garantia longa",
+    "Reparo com preços justos",
+    "Reparo com hora marcada"
   ];
 
   let index = 0;
